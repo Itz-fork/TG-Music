@@ -21,10 +21,10 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="{GROUP_LINK}"
+                        "⚜️ Support Group ⚜️", url="https://t.me/{GROUP_NAME}"
                     ),
                     InlineKeyboardButton(
-                        "🔰️ Bot Channel 🔰️", url="{CHANNEL_LINK}"
+                        "🔰️ Bot Channel 🔰️", url="https://t.me/{CHANNEL_NAME}"
                     )
                 ]
             ]
