@@ -1,4 +1,5 @@
-# Calls Music — The first open-source PyTgCalls based project
+# Group Music Bot
+
 
 ## Requirements
 
