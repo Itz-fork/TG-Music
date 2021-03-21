@@ -21,10 +21,10 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/VKP_BOTS"
+                        "💬 Group", url="https://t.me/{Group_Name}"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/VKPROJECTS"
+                        "Channel 🔈", url="https://t.me/{Channel_Name}"
                     )
                 ]
             ]
