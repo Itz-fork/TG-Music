@@ -16,15 +16,15 @@ Use the buttons below to know more about me.""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ Source code", url="https://t.me/CallsMusic"
+                        "🤔️ How To Use Me 🤔️", url="https://telegra.ph/How-To-Use-Music-Nexa-Bot-03-16"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/{Group_Name}"
+                        "⚜️ Support Group ⚜️", url="{GROUP_LINK}"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/{Channel_Name}"
+                        "🔰️ Bot Channel 🔰️", url="{CHANNEL_LINK}"
                     )
                 ]
             ]
@@ -32,8 +32,8 @@ Use the buttons below to know more about me.""",
     )
 
 
-@Client.on_message(command("start") & other_filters)
-async def start2(_, message: Message):
+@Client.on_message(command("search") & other_filters2)
+async def search(_, message: Message):
     await message.reply_text(
         "💁🏻‍♂️ Do you want to search for a YouTube video?",
         reply_markup=InlineKeyboardMarkup(
