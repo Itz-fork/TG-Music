@@ -9,7 +9,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am Calls Music, an open-source bot that lets you play music in your groups.
+I am Music Bot, an bot that lets you play music in your groups.
 
 Use the buttons below to know more about me.""",
         reply_markup=InlineKeyboardMarkup(
@@ -21,10 +21,10 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/callsmusicchat"
+                        "💬 Group", url="https://t.me/VKP_BOTS"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/callsmusic"
+                        "Channel 🔈", url="https://t.me/VKPROJECTS"
                     )
                 ]
             ]
