@@ -1,8 +1,8 @@
 {
   "name": "CallsMusic",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls and Made By NeoN BotZ.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/suprojects/CallsMusicHeroku",
+  "repository": "https://github.com/NEON-BOTZ/TG-Music",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
