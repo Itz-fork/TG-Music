@@ -32,10 +32,11 @@ Use the buttons below to know more about me.""",
     )
 
 
-@Client.on_message(command("search") & other_filters2)
-async def search(_, message: Message):
-    await message.reply_text(
-        "💁🏻‍♂️ Do you want to search for a YouTube video?",
+@Client.on_message(filters.command(["search"]) & filters.private)
+async def search(client, message):
+    try:
+        await message.reply_text(
+        text=script.START_MSG.format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -44,8 +45,11 @@ async def search(_, message: Message):
                     ),
                     InlineKeyboardButton(
                         "No ❌", callback_data="close"
-                    )
+                        ]
                 ]
-            ]
+            ),
+            reply_to_message_id=message.message_id
         )
-    )
+    except:
+        pass
+
