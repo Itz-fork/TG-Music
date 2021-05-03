@@ -2,6 +2,6 @@
 
 # Removed Repo Detected!
 
-# Use My New Repo - [https://github.com/Itz-fork/Callsmusic-Plus](CallsMusic-Plus)**
+# Use My New Repo - **[CallsMusic-Plus](https://github.com/Itz-fork/Callsmusic-Plusz)**
 
 ## Bye!
